@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS Employee;
+
+CREATE TABLE IF NOT EXISTS Employee (
+idEmployee SERIAL PRIMARY KEY,
+name VARCHAR(255),
+salary FLOAT 
+);
